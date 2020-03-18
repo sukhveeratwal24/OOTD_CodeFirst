@@ -2,6 +2,11 @@ title{
   text-align: center;
 }
 /* menu css  */
+
+body{
+background-color: #f7ebec;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -9,11 +14,22 @@ ul {
     overflow: hidden;
     background-color: #333;
   }
-  
+
+  #display-4 {
+    font-family: 'Sen', sans-serif;
+    font-weight: bold;
+    color: #5f93a9;
+  }
+
+    #lead {
+      font-family: 'Montserrat', sans-serif;
+      color:#5f93a9
+
+  }
   li {
     float: left;
   }
-  
+
   li a {
     display: block;
     color: white;
@@ -21,7 +37,7 @@ ul {
     padding: 14px 16px;
     text-decoration: none;
   }
-  
+
   li a:hover {
     background-color: #111;
   }
@@ -33,33 +49,33 @@ ul {
     padding: 16px;
     margin: 16px 0;
   }
-  
+
   /* Clear floats after containers */
   .container:after {
     content: "";
     clear: both;
     display: table;
   }
-  
+
   /* Float images inside the container to the left. Add a right margin, and style the image as a circle */
   .container img {
     float: left;
     margin-right: 20px;
     border-radius: 50%;
   }
-  
+
   /* Increase the font-size of a span element */
   .container span {
     font-size: 20px;
     margin-right: 15px;
   }
-  
+
   /* Add media queries for responsiveness. This will center both the text and the image inside the container */
   @media (max-width: 500px) {
     .container {
       text-align: center;
     }
-  
+
     .container img {
       margin: auto;
       float: none;
