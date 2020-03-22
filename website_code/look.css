@@ -1,7 +1,6 @@
 title{
   text-align: center;
 }
-/* menu css  */
 
 body{
 background-color: #f7ebec;
@@ -16,25 +15,28 @@ ul {
     align-items: center;
   }
 
-  #display-4 {
+  h1, h2{
     font-family: 'Sen', sans-serif;
     font-weight: bold;
+    font-size: large;
     color: #5f93a9;
     align-items: center;
+
   }
 
-    #lead {
+   p{
       font-family: 'Montserrat', sans-serif;
+      text-align: center;
       color:#5f93a9
+    }
 
-  }
   li {
-    float: left;
+    float: right;
   }
 
   li a {
     display: block;
-    color: white;
+    color: black
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -44,8 +46,19 @@ ul {
   li a:hover {
     background-color: #111;
   }
-/* Testimonials css */
-.container {
+
+#card-title { 
+  align-items: center;
+  font-family: 'Sen', sans-serif;
+  font-weight: bold;
+  color: black; 
+}
+
+#card-text{
+  font-family: 'Sen', sans-serif;
+  color: black;  
+}
+/*.container {
     border: 2px solid #ccc;
     background-color: #eee;
     align-items: center;
@@ -55,27 +68,27 @@ ul {
   }
 
   /* Clear floats after containers */
-  .container:after {
+  /* .container:after {
     content: "";
     clear: both;
     display: table;
   }
 
   /* Float images inside the container to the left. Add a right margin, and style the image as a circle */
-  .container img {
+  /*.container img {
     float: left;
     margin-right: 20px;
     border-radius: 50%;
   }
 
   /* Increase the font-size of a span element */
-  .container span {
+  /*.container span {
     font-size: 20px;
     margin-right: 15px;
   }
 
   /* Add media queries for responsiveness. This will center both the text and the image inside the container */
-  @media (max-width: 500px) {
+  /*@media (max-width: 500px) {
     .container {
       text-align: center;
     }
