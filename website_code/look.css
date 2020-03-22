@@ -29,7 +29,7 @@ ul {
     }
 
   li {
-    float: left;
+    float: right;
   }
 
   li a {
@@ -43,13 +43,14 @@ ul {
   li a:hover {
     background-color: #111;
   }
-/* Testimonials css */
+
 #card-title { 
+  align-items: center;
   font-family: 'Sen', sans-serif;
   font-weight: bold;
   color: black; 
-
 }
+
 #card-text{
   font-family: 'Sen', sans-serif;
   color: black;  
