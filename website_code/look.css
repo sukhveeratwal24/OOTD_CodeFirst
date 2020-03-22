@@ -1,65 +1,92 @@
 title{
   text-align: center;
 }
-/* menu css  */
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+
+body{
+background-color: #f7ebec;
+}
+
+nav{
+  font-family: 'Sen', sans-serif;
+  font-weight: bold;
+  font-size: large;
+}
+
+.h1{
+    font-family: 'Sen', sans-serif;
+    font-weight: bold;
+    font-size: 26px
+    color: black;
+    text-align: center;
   }
-  
+
+   p{
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+      color: black;
+    }
+
   li {
-    float: left;
+    float: right;
   }
-  
+
   li a {
     display: block;
-    color: white;
+    color: black
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
-  
+
   li a:hover {
     background-color: #111;
   }
-/* Testimonials css */
-.container {
+
+#card-title { 
+  align-items: center;
+  font-family: 'Sen', sans-serif;
+  font-weight: bold;
+  color: black; 
+}
+
+#card-text{
+  font-family: 'Sen', sans-serif;
+  color: black;  
+}
+/*.container {
     border: 2px solid #ccc;
     background-color: #eee;
     border-radius: 5px;
     padding: 16px;
     margin: 16px 0;
   }
-  
+
   /* Clear floats after containers */
-  .container:after {
+  /* .container:after {
     content: "";
     clear: both;
     display: table;
   }
-  
+
   /* Float images inside the container to the left. Add a right margin, and style the image as a circle */
-  .container img {
+  /*.container img {
     float: left;
     margin-right: 20px;
     border-radius: 50%;
   }
-  
+
   /* Increase the font-size of a span element */
-  .container span {
+  /*.container span {
     font-size: 20px;
     margin-right: 15px;
   }
-  
+
   /* Add media queries for responsiveness. This will center both the text and the image inside the container */
-  @media (max-width: 500px) {
+  /*@media (max-width: 500px) {
     .container {
       text-align: center;
     }
-  
+
     .container img {
       margin: auto;
       float: none;
