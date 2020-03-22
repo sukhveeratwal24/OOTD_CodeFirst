@@ -26,11 +26,11 @@ nav{
       color: black;
     }
 
-  li {
+  li{
     float: right;
   }
 
-  li a {
+  li a{
     display: block;
     color: black
     text-align: center;
@@ -38,11 +38,11 @@ nav{
     text-decoration: none;
   }
 
-  li a:hover {
+  li a:hover{
     background-color: #111;
   }
 
-#card-title { 
+#card-title{ 
   align-items: center;
   font-family: 'Sen', sans-serif;
   font-weight: bold;
