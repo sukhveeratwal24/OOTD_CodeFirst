@@ -12,18 +12,18 @@ nav{
   font-size: large;
 }
 
-  h1, h2{
+.h1{
     font-family: 'Sen', sans-serif;
     font-weight: bold;
-    font-size: large;
-    color: #5f93a9;
+    font-size: 26px
+    color: black;
     text-align: center;
   }
 
    p{
       font-family: 'Montserrat', sans-serif;
       text-align: center;
-      color:#5f93a9
+      color: black;
     }
 
   li {
