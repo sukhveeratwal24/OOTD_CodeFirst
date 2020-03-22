@@ -6,11 +6,14 @@ body{
 background-color: #f7ebec;
 }
 
-nav{
-  font-family: 'Sen', sans-serif;
-  font-weight: bold;
-  font-size: large;
-}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: whitesmoke;
+    align-items: center;
+  }
 
 .h1{
     font-family: 'Sen', sans-serif;
