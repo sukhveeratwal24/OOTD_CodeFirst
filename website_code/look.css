@@ -1,7 +1,6 @@
 title{
   text-align: center;
 }
-/* menu css  */
 
 body{
 background-color: #f7ebec;
@@ -15,26 +14,27 @@ ul {
     background-color: whitesmoke;
   }
 
-  h1, h2 {
+  h1, h2{
     font-family: 'Sen', sans-serif;
     font-weight: bold;
     font-size: large;
     color: #5f93a9;
+    text-align: center;
   }
 
-
-   p {
+   p{
       font-family: 'Montserrat', sans-serif;
+      text-align: center;
       color:#5f93a9
+    }
 
-  }
   li {
-    float: left;
+    float: right;
   }
 
   li a {
     display: block;
-    color: white;
+    color: black
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -43,13 +43,14 @@ ul {
   li a:hover {
     background-color: #111;
   }
-/* Testimonials css */
+
 #card-title { 
+  align-items: center;
   font-family: 'Sen', sans-serif;
   font-weight: bold;
   color: black; 
-
 }
+
 #card-text{
   font-family: 'Sen', sans-serif;
   color: black;  
