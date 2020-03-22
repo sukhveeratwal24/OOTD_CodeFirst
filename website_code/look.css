@@ -12,16 +12,18 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: whitesmoke;
   }
 
-  #display-4 {
+  h1, h2 {
     font-family: 'Sen', sans-serif;
     font-weight: bold;
+    font-size: large;
     color: #5f93a9;
   }
 
-    #lead {
+
+   p {
       font-family: 'Montserrat', sans-serif;
       color:#5f93a9
 
@@ -42,7 +44,17 @@ ul {
     background-color: #111;
   }
 /* Testimonials css */
-.container {
+#card-title { 
+  font-family: 'Sen', sans-serif;
+  font-weight: bold;
+  color: black; 
+
+}
+#card-text{
+  font-family: 'Sen', sans-serif;
+  color: black;  
+}
+/*.container {
     border: 2px solid #ccc;
     background-color: #eee;
     border-radius: 5px;
@@ -51,27 +63,27 @@ ul {
   }
 
   /* Clear floats after containers */
-  .container:after {
+  /* .container:after {
     content: "";
     clear: both;
     display: table;
   }
 
   /* Float images inside the container to the left. Add a right margin, and style the image as a circle */
-  .container img {
+  /*.container img {
     float: left;
     margin-right: 20px;
     border-radius: 50%;
   }
 
   /* Increase the font-size of a span element */
-  .container span {
+  /*.container span {
     font-size: 20px;
     margin-right: 15px;
   }
 
   /* Add media queries for responsiveness. This will center both the text and the image inside the container */
-  @media (max-width: 500px) {
+  /*@media (max-width: 500px) {
     .container {
       text-align: center;
     }
