@@ -16,14 +16,14 @@ nav{
     font-family: 'Sen', sans-serif;
     font-weight: bold;
     font-size: large;
-    color: #5f93a9;
+    color: black;
     text-align: center;
   }
 
    p{
       font-family: 'Montserrat', sans-serif;
       text-align: center;
-      color:#5f93a9
+      color: black;
     }
 
   li {
