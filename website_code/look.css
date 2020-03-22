@@ -15,18 +15,18 @@ ul {
     align-items: center;
   }
 
-.h1{
+  h1, h2{
     font-family: 'Sen', sans-serif;
     font-weight: bold;
-    font-size: 26px
-    color: black;
+    font-size: large;
+    color: #5f93a9;
     text-align: center;
   }
 
    p{
       font-family: 'Montserrat', sans-serif;
       text-align: center;
-      color: black;
+      color:#5f93a9
     }
 
   li {
